@@ -27,12 +27,14 @@ body{
 	border: 1.7px solid #1A1919;
 }
 header{
+	z-index: 200;
 	position: fixed;
 	display: block;
 	top: 0;
-	width: 85em;
+	width: 100%;
     height: 7em;
-    background: #deefb7;
+	background-image:linear-gradient(0deg, rgba(26, 25, 25, 0.3), rgba(26, 25, 25, 0.3)), url(background-image.jpg);
+	background-size: cover;
 }
 nav div{
 	font-family: SOFIA PRO;
@@ -72,6 +74,59 @@ h3{
 }
 p{
     font-family: SOFIA PRO;
+}
+#form-suscripcion{
+	padding-top: 12.5%;
+	top: 0;
+	margin-right: 0;
+	width: 100%;
+	height: 38em;
+	background-image:linear-gradient(0deg, rgba(26, 25, 25, 0.3), rgba(26, 25, 25, 0.3)), url(background-image.jpg);
+	background-size: cover;
+	background background-repeat: no-repeat;
+	background-position: center center;
+}
+#form-suscripcion div{
+	margin: -1em auto;
+	padding: 2em 1em;
+	width: 23em;
+	height: 23em;
+	border-radius: 3em;
+	background: RGBA(166, 138, 100, 0.5);
+	text-align: center;
+
+}
+#form-suscripcion h3{
+	color: #386641;
+	font-weight: bolder;
+	font-family: Minerva Modern;
+}
+.form-texto{
+    border-radius: 3em;
+	margin: 0px auto;
+	text-align: center;
+	width: 12.75em;
+}
+.subtitle-form{
+	font-family: SOFIA PRO;
+	color: palegoldenrod;
+	font-weight: bold;
+}
+.form-email{
+	margin: 0px auto;
+	text-align: center;
+	width: 12.75em;
+	border-radius: 3em;
+}
+.form-button{
+	background: #deefb7;
+	border-radius: 1em;
+	margin: 0px auto;
+	margin-top: 1.2em;
+	height: 2.2em;
+	width: 8.75em;
+	font-weight: bold;
+	font-family: Lato;
 }
 #introduccion h3{
     width: 17em;
